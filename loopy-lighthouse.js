@@ -10,22 +10,24 @@
 
 */
 
-/*
+
 for (let x = 100; x <= 200; x++) {
-    if ((x % 3 === 0) && (x % 4 ===0)) {
+    if (x % 3 === 0 && x % 4 !== 0) {
         console.log("Loopy");
     }
-    else if (x % 4 === 0) {
+    else if (x % 4 === 0 && x % 3 !== 0) {
         console.log("Lighthouse");
     }
-    else if (x % 3 === 0) {
+    else if ((x % 3 === 0) && (x % 4 === 0)) {
         console.log("LoopyLighthouse");
     }
     else {
         console.log(x);
     }
 }
-*/
+
+
+/* written using switch statements
 
 for (let x = 100; x <= 200; x++) {
     switch (x <= 200) {
@@ -43,3 +45,5 @@ for (let x = 100; x <= 200; x++) {
             break;
     }
 }
+
+*/
